@@ -1,22 +1,59 @@
-
-.d1{
+.d-1{
+    background-color:#a5e7cb; 
+}
+.d0
+{
+    font-family: Passion One;
     font-size: 30px;
-    background-color: #007a00;
-    height: 70px;
-    padding: 0px;
-    margin: 0px;
-}
-.fa-solid{
-    margin-left: 45px;
-    margin-top: 20px;
+    height: 80px;
+    background-color: rgb(2, 92, 2);
     color: white;
 }
-.user{
-    color: white;
-    font-family: 'Passion One';
-    /*font-family: 'Itim', cursive;*/
+#d1
+{
+    font-size: 25px;
+    margin-left: 77px;
+    margin-top: 30px;
 }
-.d2{
-    background-color:#afffaf;
-    height: 150px;
+
+.d2
+{
+    background-color: rgb(142 235 204);
+   
+}
+.d3
+{
+    color: grey;
+    font-size: 15px;
+    font-family: Jura;
+    text-decoration: underline dotted;
+}
+.d4
+{
+    font-size: 15px;
+    font-family: Itim;
+    color: black;
+    margin-left: 64px;
+}
+#d5
+{
+    color: grey;
+    margin-left: 48px;
+    font-size: 10px;
+}
+#d6
+{
+    
+    color: grey;
+    font-family: Itim;
+    line-height: 25px;
+    text-decoration: overline dashed;
+    font-size: 10px;
+}
+.d7{
+    text-align: right;
+    font-size: 15px;
+    font-family: Itim;
+    color: black;
+    
 }
