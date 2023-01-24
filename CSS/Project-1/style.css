@@ -1,0 +1,22 @@
+
+.d1{
+    font-size: 30px;
+    background-color: #007a00;
+    height: 70px;
+    padding: 0px;
+    margin: 0px;
+}
+.fa-solid{
+    margin-left: 45px;
+    margin-top: 20px;
+    color: white;
+}
+.user{
+    color: white;
+    font-family: 'Passion One';
+    /*font-family: 'Itim', cursive;*/
+}
+.d2{
+    background-color:#afffaf;
+    height: 150px;
+}
