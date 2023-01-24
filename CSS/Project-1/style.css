@@ -1,5 +1,6 @@
 .d-1{
     background-color:#a5e7cb; 
+    height: 100%;
 }
 .d0
 {
@@ -11,7 +12,7 @@
 }
 #d1
 {
-    font-size: 25px;
+    font-size: 40px;
     margin-left: 77px;
     margin-top: 30px;
 }
