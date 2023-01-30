@@ -1,7 +1,7 @@
 .container{
     height: 86vh;
     width: 640px;
-    border:2px solid rgb(221, 243, 144);
+    border:2px solid rgba(0, 0, 0);
     margin: auto;   
 }
 .black{
@@ -15,7 +15,7 @@
     border: 1px soild black;
     height: 80px;
     width: 80px;
-    background-color: rgb(101, 228, 112);
+    background-color: rgba(10, 106, 18,1);
     float: left;
 }
 
@@ -25,11 +25,11 @@
 
 .up{
     /*display: inline;*/
-    color: rgb(11, 66, 6);
+    color: rgba(0, 0, 0,1);
     padding: 20px 20px;
  }
 .down{
-    color: rgb(255, 255, 255);
+    color: rgba(190, 191, 190,1);
     padding: 20px 20px;
     box-shadow: inset;
  }
