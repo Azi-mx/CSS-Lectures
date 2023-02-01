@@ -7,12 +7,13 @@ body{
 .para-1{
     margin: auto;
     width: 1853px;
-    height: 400px;
+    height: 550px;
     border: 1px solid black;
     background-color: #06a1a1;
     font-family: 'Pacifico', cursive;
     font-weight: bold;
     text-align: center;
+    font-size: 21px;
     margin-bottom: 10px;
 }
 .para-1 p{
@@ -31,13 +32,14 @@ body{
 .para-2{
     margin: auto;
     width: 1853px;
-    height: 400px;
+    height: 513px;
     border: 1px solid black;
-    background-color: #182862;
+    background-image: linear-gradient(#18213B,#124E50);
     font-family: 'Patrick Hand', cursive;
     font-weight: bold;
     text-align: center;
     color: #e36161;
+    font-size: 20px;
     margin-bottom: 10px;
 }
 .para-2 p{
@@ -52,7 +54,7 @@ body{
 .para-3{
     margin: auto;
     width: 1853px;
-    height: 752px;
+    height: 687px;
     padding:151px; 
     padding-right: 192px;
     border: 1px solid black;
@@ -87,19 +89,21 @@ body{
 .similar{
     margin: auto;
     padding: 11px; 
-    margin-top: 100px;
+    margin-top: 59px;
     margin-left: 40px;
 }
 .para-4{
     margin: auto;
-    width: 1548px;
-    height: 318px;
+    width: 1842px;
+    height: 550px;
     padding: 123px; 
-    padding-left: 184px;
+    /* padding-left: 184px; */
     background-image: url(Second.jpg);
     background-size: 50%;
     background-repeat: repeat;
     color: #e10d0d;
+    margin-bottom: 20px;
+    box-sizing: border-box;
 }
 .box-4{
     border: 5px double wheat;
@@ -120,10 +124,65 @@ body{
     display: inline-block;
 }
 .similar-1{
+    margin: auto;
     font-family: 'Patrick Hand', cursive;
     font-weight: bolder;
-    margin: auto;
     padding: 20px;
-    margin-top: 100px;
-    margin-left: 106px;
+    margin-top: 30px;
+    margin-left: 138px;
+}
+.para-5{
+    margin: auto;
+    width: 1853px;
+    height: 687px;
+    padding:151px; 
+    padding-right: 192px;
+    border: 1px solid black;
+    background-image: url(fourth.jpg);
+    background-size: 100%;
+    /* background-repeat: no-repeat; */
+    font-family: 'Patrick Hand', cursive;
+    font-weight: bold;
+    text-align: center;
+    color: #e36161;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+.para-6{
+    margin: auto;
+    width: 1853px;
+    height: 550px;
+    background-image: url(fixed.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+    color: #e10d0d;
+    margin-bottom: 20px;
+     box-sizing: border-box;
+     text-align: center;
+     padding-left: 155px;
+}
+.similar-2{
+    /* margin: auto; */
+    margin-top: 119px;
+    margin-right: 87px;
+    font-family: 'Patrick Hand', cursive;
+    padding: 20px;
+     
+}
+.para-7{
+    margin: auto;
+    width: 1853px;
+    height: 687px;
+    padding:151px; 
+    padding-right: 192px;
+    border: 1px solid black;
+    background-image: url(fifth.jpg);
+    background-size: 100%;
+    background-position: center;
+    font-family: 'Patrick Hand', cursive;
+    font-weight: bold;
+    text-align: center;
+    color: #e36161;
+    box-sizing: border-box;
+    margin-bottom: 20px;
 }
