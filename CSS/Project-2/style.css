@@ -27,12 +27,11 @@ body{
 }
 .space{
     background-color: bisque;
-    /* margin-bottom: 20px; */
 }
 .para-2{
     margin: auto;
     width: 1853px;
-    height: 513px;
+    height: 550px;
     border: 1px solid black;
     background-image: linear-gradient(#18213B,#124E50);
     font-family: 'Patrick Hand', cursive;
@@ -54,22 +53,20 @@ body{
 .para-3{
     margin: auto;
     width: 1853px;
-    height: 687px;
-    padding:151px; 
-    padding-right: 192px;
+    height: 550px;
     border: 1px solid black;
     background-image: url(tajmahal.jpg);
     background-size: 100%;
-    /* background-repeat: no-repeat; */
     font-family: 'Patrick Hand', cursive;
     font-weight: bold;
     text-align: center;
     color: #e36161;
     box-sizing: border-box;
     margin-bottom: 20px;
+    /* text-align: center; */
 }
 .box-1{
-    border: 10px solid white;
+    border: 5px solid white;
     height: 250px;
     width: 340px;
     display: inline-block;
@@ -87,23 +84,22 @@ body{
     display: inline-block;
 }
 .similar{
-    margin: auto;
-    padding: 11px; 
-    margin-top: 59px;
-    margin-left: 40px;
+    margin: 113px;
+    margin-top: 154px;
 }
 .para-4{
     margin: auto;
-    width: 1842px;
+    width: 1851px;
     height: 550px;
-    padding: 123px; 
-    /* padding-left: 184px; */
     background-image: url(Second.jpg);
     background-size: 50%;
     background-repeat: repeat;
+    font-family: 'Patrick Hand', cursive;
     color: #e10d0d;
     margin-bottom: 20px;
     box-sizing: border-box;
+    text-align: center;
+    font-weight: bolder;
 }
 .box-4{
     border: 5px double wheat;
@@ -123,24 +119,14 @@ body{
     width: 340px;
     display: inline-block;
 }
-.similar-1{
-    margin: auto;
-    font-family: 'Patrick Hand', cursive;
-    font-weight: bolder;
-    padding: 20px;
-    margin-top: 30px;
-    margin-left: 138px;
-}
 .para-5{
     margin: auto;
     width: 1853px;
-    height: 687px;
-    padding:151px; 
-    padding-right: 192px;
+    height: 550px;
     border: 1px solid black;
     background-image: url(fourth.jpg);
     background-size: 100%;
-    /* background-repeat: no-repeat; */
+    background-position: center;
     font-family: 'Patrick Hand', cursive;
     font-weight: bold;
     text-align: center;
@@ -156,25 +142,15 @@ body{
     background-size: 100%;
     background-attachment: fixed;
     color: #e10d0d;
-    margin-bottom: 20px;
-     box-sizing: border-box;
-     text-align: center;
-     padding-left: 155px;
-}
-.similar-2{
-    /* margin: auto; */
-    margin-top: 119px;
-    margin-right: 87px;
+    box-sizing: border-box;
     font-family: 'Patrick Hand', cursive;
-    padding: 20px;
-     
+    text-align: center;
+    margin-bottom: 20px;
 }
 .para-7{
     margin: auto;
     width: 1853px;
-    height: 687px;
-    padding:151px; 
-    padding-right: 192px;
+    height: 550px;
     border: 1px solid black;
     background-image: url(fifth.jpg);
     background-size: 100%;
@@ -185,4 +161,16 @@ body{
     color: #e36161;
     box-sizing: border-box;
     margin-bottom: 20px;
+}
+.para-8{
+    margin: auto;
+    width: 1850px;
+    height: 550px;
+    background-image: url(sixth.jpg);
+    background-size: 100%;
+    background-position: center;
+    color: #e10d0d;
+    margin-bottom: 20px;
+    text-align: center;
+    box-sizing: border-box;
 }
