@@ -63,7 +63,7 @@ body{
     color: #e36161;
     box-sizing: border-box;
     margin-bottom: 20px;
-    /* text-align: center; */
+    background-position: center;
 }
 .box-1{
     border: 5px solid white;
