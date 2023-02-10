@@ -1,0 +1,162 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.content{
+    margin: 0px;
+}
+/* .main{
+    padding: 10px;
+} */
+/*Styling Icons*/
+.new{
+    font-size: 45px;
+    background: linear-gradient(180deg, rgba(2,0,36,1) 60%, rgba(10,214,255,1) 60%);
+    -webkit-background-clip: text;
+    background-color: transparent;
+    color: transparent;
+}
+.head{
+    text-indent: 10%;
+    background: linear-gradient(180deg, rgba(2,0,36,1) 60%, rgba(10,214,255,1) 60%);
+    -webkit-background-clip: text;
+    background-color: transparent;
+    color: transparent;
+}
+.caption{
+    text-indent: 10%;
+    
+}
+.categories
+{
+    background: linear-gradient(180deg, rgba(2,0,36,1) 60%, rgba(10,214,255,1) 60%);
+    -webkit-background-clip: text;
+    background-color: transparent;
+    color: transparent;
+    text-align: right;
+    font-weight: bold;
+    width: 88%;
+    cursor: pointer;
+}
+.heading{
+    font-weight: 1000;
+}
+
+.app{
+    height: 788px;
+    width: 800px;
+    display: inline-block;
+    float: left;
+}
+.two{
+    margin-left: 210px;
+    height: 788px;
+}
+.heading2{
+    font-size: 83px;
+    text-align: left;
+    display: inline-block;
+    background: linear-gradient(180deg, rgba(2,0,36,1) 60%, #3880FF 60%);
+    -webkit-background-clip: text;
+    background-color: transparent;
+    color: transparent;
+}
+.store{
+    height: 300px;
+    width: 500px;
+    cursor: pointer;
+}
+.heading2 p{
+    font-size: 16px;
+    color: black;
+}
+.section{
+    height: 30vh;
+    width: 1540px;
+    padding-top: 34px;
+    box-sizing: border-box;
+    margin: auto;   
+    border-radius: 6px;
+}
+.content{
+    float: left;
+    text-align: center;
+    margin-right: 30px;
+}
+.row1{
+    margin-top: 10px;
+}
+.section1{
+    height: 30vh;
+    text-align: center;
+    width: 1540px;
+    box-sizing: border-box;
+    margin: auto;   
+    border-radius: 6px;
+}
+.content1{
+    margin-left: 20px;
+    float: left;
+    text-align: center;
+    margin-right: 17px;
+}
+.third{
+    width: 100%;
+    height: 70vh;
+    object-fit: contain;
+}
+.background{
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
+    position: absolute;
+}
+/* .background1{
+    position: absolute;
+    width: 100%;
+    position: absolute;
+    height: 70vh;
+    object-fit: cover;
+    
+}  */
+.heading-seller h1{
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 35px;
+}
+.para{
+    position: relative;
+    color: white;
+    text-align: center;
+}
+.boxes{
+    width: 100%;
+    height: 60vh;
+}
+.box1{
+    position: relative;
+    border: 2px solid white;
+    border-radius: 5px;
+    height: 297px;
+    width: 220px;
+    background-color: white;
+    display: inline-block;
+    margin: 50px;
+}
+.box1 img{
+    clip-path: circle(36.1% at 50% 50%);
+    height: 150px;
+    width: 120px;
+    object-fit: cover;
+} 
+.star{
+    color: gold;
+}
+.box1:hover{
+    transition: transform .5s ease-out;
+    transform: scale(1.4);
+}
+.fourth{
+    width: 100%;
+    height: 60vh;
+}

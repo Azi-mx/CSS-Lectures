@@ -1,0 +1,36 @@
+.container{
+    height: 68.8vh;
+    width: 640px;
+    border:2px solid rgba(0, 0, 0);
+    margin: auto;   
+    border-radius: 6px;
+}
+.black{
+    border: 1px soild black;
+    height: 80px;
+    width: 80px;
+    background-color: rgba(202, 255, 87, 0.7);
+    float: left;
+}
+.white{
+    border: 1px soild black;
+    height: 80px;
+    width: 80px;
+    background-color: rgba(10, 106, 18,1);
+    float: left;
+}
+
+.fas{
+     font-size: 55px;
+ }
+
+.up{
+    /*display: inline;*/
+    color: rgba(0, 0, 0,1);
+    padding: 20px 20px;
+ }
+.down{
+    color: rgba(190, 191, 190,1);
+    padding: 20px 20px;
+    box-shadow: inset;
+ }
