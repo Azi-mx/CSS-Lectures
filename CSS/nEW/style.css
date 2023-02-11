@@ -9,7 +9,7 @@ body{
 } */
 /*Styling Icons*/
 .new{
-    font-size: 45px;
+    font-size: 50px;
     background: linear-gradient(180deg, rgba(2,0,36,1) 60%, rgba(10,214,255,1) 60%);
     -webkit-background-clip: text;
     background-color: transparent;
@@ -123,6 +123,7 @@ body{
     text-align: center;
     color: white;
     font-size: 35px;
+    padding-top: 16px;
 }
 .para{
     position: relative;
@@ -131,7 +132,7 @@ body{
 }
 .boxes{
     width: 100%;
-    height: 60vh;
+    height: 78vh;
 }
 .box1{
     position: relative;
@@ -159,4 +160,99 @@ body{
 .fourth{
     width: 100%;
     height: 60vh;
+    /* background-color: black; */
+}
+.fourth .para{
+    font-size: 40px;
+    color: black;
+    font-weight: bolder;
+}
+.alumni{
+    height: 20vh;
+    width: 100%;
+    /* border: 2px solid black; */
+}
+.partner-1{
+    height: 150px;
+    width: 330px;
+    display: inline-block;
+    position: relative;
+    float: left;
+   
+}
+.partner-2 {
+    height: 150px;
+    width: 330px;
+    display: inline-block; 
+    float: left;
+    position: relative;
+}
+.partner-3{
+    height: 150px;
+    width: 330px;
+    display: inline-block; 
+    float: left;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 100px;
+}
+.partner-4{
+    height: 150px;
+    width: 330px;
+    display: inline-block; 
+    float: left;
+    position: relative;
+    
+}
+.partner-5{
+    height: 150px;
+    width: 330px;
+    display: inline-block; 
+    float: left;
+    position: relative;
+    
+}
+.partner-1 img{
+    height: 150px;
+    width: 330px;
+    -webkit-clip-path: circle(24.4% at 50% 50%);
+    clip-path: circle(24.4% at 50% 50%);
+    object-fit: contain;
+
+}
+.partner-2 img{
+    height: 150px;
+    width: 330px;
+    
+    -webkit-clip-path: circle(24.4% at 50% 50%);
+    clip-path: circle(24.4% at 50% 50%);
+    object-fit: contain;
+}
+.partner-3 img{
+    height: 150px;
+    width: 330px;
+    -webkit-clip-path: circle(24.4% at 50% 50%);
+    clip-path: circle(24.4% at 50% 50%);
+    object-fit: contain;
+
+}
+.partner-4 img{
+    height: 150px;
+    width: 330px;
+    -webkit-clip-path: circle(24.4% at 50% 50%);
+    clip-path: circle(24.4% at 50% 50%);
+    object-fit: contain;
+
+}
+.partner-5 img{
+    height: 150px;
+    width: 330px;
+    -webkit-clip-path: circle(24.4% at 50% 50%);
+    clip-path: circle(24.4% at 50% 50%);
+    object-fit: contain;
+
+}
+.container{
+    padding-left: 34px;
+    box-sizing: border-box;
 }
