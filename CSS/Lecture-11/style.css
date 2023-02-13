@@ -6,15 +6,15 @@
     transform: rotateX(70deg);
     transform-style: preserve-3d;
     margin: 20px;
-    transition: all 1s;
+    transition: background-color 0.9s,transform 0.9s;
 }
 .box:hover{
     background-color: rgb(238,174,202);
     transform: rotate(90deg);
     transform: preserve-3d;
-    transition: all 0.8s;
 }
-.box::before{
+
+/* .box::before{
     background-color: rgb(204, 25, 103);
     transform-origin: top;
     height: 300px;
@@ -23,4 +23,4 @@
     top: 0;
     bottom: 0;
     content: '';
-}
+} */
