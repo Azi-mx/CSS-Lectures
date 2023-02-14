@@ -6,7 +6,11 @@
     width: 100%;
 }
 .row1{
+    background-color: brown;
+    align-items: center;
     display: grid;
-    grid-template-columns: 700px repeat(3, 1fr) 700px;
+    grid-template-columns: 500px repeat(5, 1fr) 500px;
     grid-template-rows: 1fr;
+    font-weight: 700;
+    color: white;
 }
