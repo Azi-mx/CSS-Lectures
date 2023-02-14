@@ -1,0 +1,12 @@
+.main{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 1fr;
+    height: 945px;
+    width: 100%;
+}
+.row1{
+    display: grid;
+    grid-template-columns: 700px repeat(3, 1fr) 700px;
+    grid-template-rows: 1fr;
+}
