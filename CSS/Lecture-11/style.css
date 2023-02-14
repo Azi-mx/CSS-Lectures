@@ -10,6 +10,7 @@
 }
 .box:hover .par{
     scale: 1;
+   word-wrap: break-word;
 }
 .par{
     height: 150px;
@@ -26,9 +27,7 @@
     perspective: 1000;
     box-shadow: 10px 10px 0px red;
 }
-.box:hover:after{
-    
-}
+
 /* .box:hover:before{
     background-color: rgb(204, 25, 103);
     transform-origin: top;
