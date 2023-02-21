@@ -6,16 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login-Form</title>
     <link rel="stylesheet" href="form.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <div class="container">
     <fieldset>
-        <legend><img class="image" src="images.png"></legend>
+        <legend><img class="image" src="images.jpg"></legend>
         <form action="">
-            <div class="detail">
-            <input type="email" placeholder="Enter Your Email">
-            <input type="password" placeholder="Enter Your Password">
-        </div>
+            <h1 style="color: white;">Registration Form</h1>
+            <div class="sec-1">
+                <i class="fa-solid fa-envelope icon-email email"></i>
+                <input class="emailin"type="email" placeholder="Enter Your Email">
+            </div>
+            <div class="sec-2">
+                <i class="fa-solid fa-lock icon-lock lock"></i>
+                <input class="pass" type="password" placeholder="Enter Your Password">
+            </div>
+            <div class="sec-3">
+                <button> Forget Password </button>
+            </div>
+            <div class="sec-4">
+                <button> Log In </button>
+            </div>
         </form>
     </fieldset>
 </div>
