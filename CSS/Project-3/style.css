@@ -1,6 +1,8 @@
 body{
-    background-color: black;
+    background-image: url(background.png);
+    background-size: cover;
     font-family: 'Poppins', sans-serif;
+    background-repeat: no-repeat;
 }
 .container{
     display: flex;
@@ -9,21 +11,65 @@ body{
     height: 120px;
 }
 .image{
-    width: 37%;
+    width: 35%;
     padding-left: 30px;
 }
 .menu{
     width: 33.33%;
     display: flex;
 }
-.a1{
-    padding: 25px;
-    text-align: center;
+.dropbtn{
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
     color: white;
-    text-decoration: none;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
 }
-.menu ul{
-    display: flex;
-    text-align: center;
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown li{
+    list-style: none;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 260px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover
+{
+    background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content 
+{
+  display: block;
+}
+.fa-solid{
+    color: white;
+    padding: 5px;
+}
+.image1{
+    float: left;
+    width: 140px;
+    height: 150px;
+    object-fit: contain;
+    margin-right: 20px;
+}
+.dropdown-content{
+    float: right;
 }
 

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,28 +8,66 @@
     <title>Menu</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
     <header>
         <nav>
             <div class="container">
                 <div class="image">
-                   <a href=""><img src="logo-dina-white.png"></a>
+                    <a href=""><img src="logo-dina-white.png"></a>
                 </div>
                 <div class="menu">
-                    <ul>
-                        <li><a  href="#" class="a1">Home</a></li>
-                        <li><a href="#" class="a1">Home</a></li>
-
-                        <li><a href="#" class="a1">Home</a></li>
-
-                        <li><a href="#" class="a1">Home</a></li>
-
-                    </ul>
-                   
+                    <div class="dropdown">
+                        <ul>
+                            <li>
+                                <button class="dropbtn">Home<i class="fa-solid fa-caret-down"></i></button>
+                                <div class="dropdown-content">
+                                    <a href="">Gallery</a>
+                                    <a href="">Menu 2</a>
+                                    <a href="">Menu 3</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="dropdown">
+                        <ul>
+                            <li>
+                                <button class="dropbtn">Pages<i class="fa-solid fa-caret-down"></i></button>
+                                <div class="dropdown-content">
+                                    <a href=""><img class="image1" src="photo-1602253057119-44d745d9b860.jpeg"></a>
+                                    <a href="">Menu 3</a>
+                                    <a href="">Menu 4</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="dropdown">
+                        <ul>
+                            <li>
+                                <button class="dropbtn">Reservations<i class="fa-solid fa-caret-down"></i></button>
+                                <div class="dropdown-content">
+                                    <a href="">Gallery</a>
+                                    <a href="">Menu 2</a>
+                                    <a href="">Menu 3</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="dropdown">
+                        <ul>
+                            <li>
+                                <button class="dropbtn" style="padding: 10px;">Blog</button>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </nav>
     </header>
 </body>
+
 </html>
