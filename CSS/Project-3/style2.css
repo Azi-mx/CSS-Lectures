@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(background.png);
+    background-position: center;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+
+}
+.container{
+    height: 70vh;
+    width: 100%;
+}
+.row{
+    height: 120px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.col-1{
+    width: 37%;
+    padding: 20px
+}
+.col-2{
+    width: 37%;
+    padding: 20px
+}
+.li{
+
+}
+.col-3{
+    width: 25%;
+    padding: 20px
+}
+li{
+    list-style: none;
+}
+
+.col-2 li{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    /* background-color: aqua; */
+}
+.button{
+   
+}
+.dropdown1{
+    /* display: inline-block; */
+    position: relative;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+  
+ 
+    /* background-color:rgb(0, 0, 0) ; */
+}
+.dropdown-content{
+    display: none;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    position: absolute;
+    background-color: wheat;
+    min-width: 200px;
+    top: 50px;
+}
+.dropdown-content a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 12px;
+}
+.dropdown-content a:hover{
+    background-color: bisque;
+}
+.dropdown1:hover .dropdown-content{
+    display: block;
+    
+}
+
+.dropdown2{
+    position: relative;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.dropdown-content2{
+    display: none;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    position: absolute;
+    background-color: wheat;
+    min-width: 200px;
+    top: 50px;
+}
+.dropdown-content2 a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 12px;
+}
+.dropdown-content2 a:hover{
+    background-color: bisque;
+}
+.dropdown2:hover .dropdown-content2{
+    display: block;
+    
+}
+
+.subdrop{
+    color: black;
+    padding: 15px;
+}
+
+.submenu{
+    display: none;
+    position: absolute;
+    background-color: aliceblue;
+    width: 200px;
+    left: 100px;
+    height:fit-content ;
+    
+}
+
+.submenu a{
+    display: block;
+    /* padding: 20px; */
+}
+
+.subdrop:hover .submenu{
+    display: block;
+}
