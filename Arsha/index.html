@@ -1,33 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-      <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+    <!---Font awesome link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!--Wow JS CDN-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
+
 <body>
     <!-- Header -->
-    <header id="header" class="fixed-top">
-        <div class="container" style="border: 2px solid black;">
-           
-            <nav id="navbar" class="navbar">
-                <div class="heading"><h1 class="logo me-auto"><a href="">Arsha</a></h1></div>
-                <ul>
-                    <li><a class="nav-link" href="#hero">Home</a> </li>
-                    <li><a class="nav-link" href="#about">About</a>  us</li>
-                    <li><a class="nav-link" href="#services">Services</a> </li>
-                    <li><a class="nav-link" href="#portfolio">Portfolio</a> </li>
-                    <li><a class="nav-link" href="#team">Team</a> </li>
-                    <li><a class="nav-link" href="">Drop Down</a>
+    <div class="container">
+        <header id="home" animate__bounceInUp>
+            <nav class="navbar">
+                <div class="content">
+                    <div class="logo">ARSHA</div>
+                    <a href="#home">Home</a>
+                    <a href="about">About</a>
+                    <a href="">Services</a>
+                    <a href="">Portfolio</a>
+                    <a href="">Team</a>
+                    <div class="dropdown">
+                        <a href="" style="color: white; text-decoration: none;">Drop Down1</a>
+                        <div class="sub-menu">
+                            <a href="" style="text-decoration: none;">Drop Down 1</a>
+                            <div class="dropdown-2"><a href="" style="text-decoration: none; margin-top: 10px;">Drop
+                                    Down </a>
+                                <div class="sub-menu-2">
+                                    <div><a href="" style="text-decoration: none;">Drop Down 1</a></div>
+                                    <div><a href="" style="text-decoration: none;">Drop Down 2</a></div>
+                                    <div><a href="" style="text-decoration: none;">Drop Down 3</a></div>
+                                    <div><a href="" style="text-decoration: none;">Drop Down 4</a></div>
+                                    <div><a href="" style="text-decoration: none;">Drop Down 5</a></div>
+                                </div>
+                            </div>
+                            <div> <a href="" style="text-decoration: none;">Drop Down 2</a></div>
+                            <div> <a href="" style="text-decoration: none;">Drop Down 3</a></div>
+                            <div> <a href="" style="text-decoration: none;">Drop Down 4</a></div>
+                            <div> <a href="" style="text-decoration: none;">Drop Down 5</a></div>
+                        </div>
 
-                    </li>
-                    <li><a class="nav-link" href="#contact">Conatct</a> </li>
-                </ul>
+                    </div>
+                    <a href="">Contact</a>
+                    <button class="btn">Get Started</button>
+                </div>
             </nav>
+        </header>
+        <div class="section-2">
+            <div class="para">
+                <h1 class="para-1">Better Solutions For Your Business</h1>
+                <h3 class="para-2">We are team of talented designers making websites with Bootstrap</h3>
+                <div class="para-3">
+                    <a href="#about" class="btn-1">Get Started</a>
+                    <a href="" class="video" style="text-decoration: none;"><i
+                            class="fa-sharp fa-solid fa-circle-play"></i>Watch Video</a>
+                </div>
+            </div>
+
+            <div class="image animated">
+                <img src="hero-img.png">
+            </div>
         </div>
-    </header>
+    </div>
+    <script>
+          wow = new WOW(
+                      {
+                      boxClass:     'wow',      // default
+                      animateClass: 'animated', // default
+                      offset:       0,          // default
+                      mobile:       true,       // default
+                      live:         true        // default
+                    }
+                    )
+                    wow.init();
+    </script>
 </body>
+
 </html>
