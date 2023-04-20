@@ -4,7 +4,9 @@
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
-
+.para{
+  margin: 50px;
+}
 .content{
     background-color: #37517e;
     color: white;
