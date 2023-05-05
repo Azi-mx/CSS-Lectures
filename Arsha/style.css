@@ -24,16 +24,18 @@
 .content > a:hover{
     color: #47b2e4;
 }
-.logo{
-    width: 24%;
-    /* margin-right: 120px; */
+/* .logo{
+    width: 20%;
+    margin-right: 120px;
     font-family: 'Jost', sans-serif;
     font-size: 30px;
     font-weight: bolder;
     margin-left: 341px;;
     line-height: 2px;
+} */
+.logo{
+  width: 20%;
 }
-
 .sub-menu{
     z-index: 1;
     height: 250px;
